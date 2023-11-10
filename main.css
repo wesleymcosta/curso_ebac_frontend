@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header h1, h2, section h3, form button, li{
+  font-family: 'Seymour One', sans-serif;
+  font-weight: normal;
+}
+
+body{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+
+}
+
+header {
+  padding: 14px 0;
+  background-color: rgb(27, 96, 243);
+  color: aliceblue;
+}
+
+header, h1 {
+  color: aliceblue;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 15px;
+  
+}
+header nav li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container, section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Marcas img {
+  height: 130px;
+}
+
+.store-front {
+  margin-right: 32px;
+  height: 450px;
+}
+
+.redes img, li {
+  height: 25px;
+}
+
+.redes li {
+  margin: 10px;
+  display: inline;
+  margin-right: 8px;
+}
+
+.redes li a{
+  text-decoration: none;
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+section {
+  padding: 40px 0;
+  color: rgb(27, 96, 243);
+}
+
+section h2 {
+  margin-bottom: 8px;
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+#contact .container {
+  display:block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0;
+  font-weight: normal;
+  
+}
+
+form {
+  margin-right: 32px;
+}
+
+form input, 
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+form textarea {
+  height: 100px;
+  resize: none;
+}
+
+section h3 {
+  margin-bottom: 16px;
+}
+
+form button {
+  background-color: rgb(27, 96, 243);
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgb(55, 118, 252);
+}
+
+input:focus, textarea:focus {
+  outline-color: rgb(27, 96, 243);
+}
+
+footer {
+  background-color: rgb(27, 96, 243);
+  color: aliceblue;
+  padding: 8px;
+  font-size: 15px;
+  
+}
+
+footer p {
+  
+}
